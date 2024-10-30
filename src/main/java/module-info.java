@@ -1,7 +1,8 @@
 module com.example.javafxtestapp {
-    //requires javafx.controls;
+    requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
+    requires java.sql;
 
     requires com.dlsc.formsfx;
     requires net.synedra.validatorfx;
